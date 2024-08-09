@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Scheme Generator</title>
+</head>
+<body>
+    <div id="contaiiner">
+    <h1>Color Scheme Generator</h1>
+    <div id="get-color">
+        <input type="color" id="colorSeed"/>
+        <select id="colorMode">
+            <option value="">--Please choose a mode--</option>
+            <option value="monochrome">Monochrome</option>
+            <option value="monochrome-dark">Monochrome-dark</option>
+            <option value="monochrome-light">Monochrome-light</option>
+            <option value="analogic">Analogic</option>
+            <option value="complement">Complement</option>
+            <option value="analogic-complement">Analogic-complement</option>
+            <option value="triad">Triad</option>
+            <option value="quad">Quad</option>
+        </select>
+        <button id="color-btn" onclick="getColor()">GET COLOR SCHEME</button>
+    </div>
+    <div id="color-scheme">
+
+    </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
